@@ -1,0 +1,264 @@
+@media screen and (max-width:760px) {
+/* navBar */
+
+.logo img {
+    height: 30px;
+  }
+
+  .list li a {
+    display: none;
+  }
+  .list button {
+    padding: 0px 30px;
+  font-size: 12px;
+  }
+
+
+/* Intro section 1*/
+
+#intro-section-1 {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.intro-content h1 {
+    font-size: 20px;
+    align-self: center;
+    width: 220px;
+    
+}
+
+.intro-content p {
+    font-size: 10px;
+    width: 220px;
+   
+}
+
+.left-intro-section button{
+    padding: 5px 10px;
+    font-size: 10px;
+  
+   
+}
+
+.right-intro-section img {
+margin-left: -200px;
+    height: 100px;
+}
+
+
+/* Intro section 2*/
+
+#intro-section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-intro-section  img {
+    height: 100px;
+}
+
+
+/* Intro section 2*/
+
+#intro-section-3 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.right-intro-section button {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+/* Service Section */
+
+
+.service-head h1 {
+    font-size: 15px;
+}
+
+.service-head p {
+    font-size: 9px;
+}
+
+.service-card {
+    width: 150px;  
+    
+}
+
+.service-card img {
+    height: 15px;
+   
+}
+
+.service-card:nth-child(4) img{
+    height: 20px;
+}
+
+.service-card h4 {
+    font-size: 15px;
+}
+
+.service-card p {
+    font-size: 10px;
+    
+}
+
+
+/* pricing section */
+
+.pricing-section {
+    width: 420px;
+    margin-left: 15px;
+}
+.pricing-section h1 {
+    font-size: 20px;
+}
+
+.price-cards {
+    padding: 5px 10px;
+  width: 450px;
+    gap: 10px;
+ 
+}
+
+.price-card {
+    height: 550px;
+  
+}
+
+.price-head-part h4 {
+    font-size: 13px;
+}
+
+.price-head-part p {
+    font-size: 10px;
+}
+.features{
+gap: 1px;
+}
+
+.features li  {
+font-size: 10px;
+}
+.bottom-price-part h1  {
+    font-size: 20px;
+}
+
+.bottom-price-part span {
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.bottom-price-part p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bottom-price-part button{
+    padding: 8px 20px;
+    font-size:10px;
+    margin-top: -1px;
+
+}
+
+/* customer section  */
+
+
+.review-header-part h1 {
+    font-size: 30px;
+}
+
+.review-header-part p  {
+    font-size: 12px;
+}
+
+.review-card {
+    width: 400px;
+    gap: 30px;
+
+}
+
+.review-text  {
+    font-size: 18px;
+}
+
+.user img {
+    width: 80px;
+}
+
+.user div h4 {
+    font-size: 18px;
+}
+
+/* Register Now Section */
+
+.register-section  {
+height: 280px;
+width: 100%;
+}
+
+.register-left h1 {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.register-left p  {
+    margin-top: 20px;
+    margin-left: -50px;
+    font-size: 15px;
+    width: 220px;
+}
+
+.register-right button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-right: 100px;
+}
+
+
+/* Footer Section */
+
+
+
+.footer-logo  {
+margin-right: 20px;
+margin-left: -80px;
+}
+.footer-logo img {
+    height: 20px;
+    width: 60px ;
+}
+
+.footer-parts {
+    margin-right: 15px;
+  
+}
+.footer-logo p  {
+    width: 100px;
+    font-size: 10px;
+}
+
+.footer-parts h4 {
+    font-size: 15px;
+   
+}
+
+.footer-parts li {
+    font-size: 12px;
+}
+
+.social-media h4 {
+    font-size: 15px;
+}
+
+.social-media div img{
+    height: 25px;
+}
+
+
+
+
+}
